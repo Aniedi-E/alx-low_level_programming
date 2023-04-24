@@ -6,18 +6,18 @@
 
 int main(void)
 {
-	int i;
-	int j;
+	int idx;
+	int idx1;
 
-	for (i = 48; i < 58; i++)
+	for (idx = 48; idx < 58; idx++)
 	{
-		for (j = 48; j < 58; j++)
+		for (idx1 = 48; idx1 < 58; idx1++)
 		{
-			if (i != j && i < j)
+			if (idx != idx1 && idx < idx1)
 			{
-				putchar(i);
-				putchar(j);
-				if (j == 57 && i == 56)
+				putchar(idx);
+				putchar(idx1);
+				if (idx1 == 57 && idx == 56)
 				{
 					break;
 

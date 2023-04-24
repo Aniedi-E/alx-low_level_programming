@@ -6,20 +6,20 @@
 
 int main(void)
 {
-	int i, j, k;
+	int idx1, idx2, idx2;
 
-	for (i = 48; i < 58; i++)
+	for (idx1 = 48; idx1 < 58; idx1++)
 	{
-		for (j = 49; j < 58; j++)
+		for (idx2 = 49; idx2 < 58; idx2++)
 		{
-			for (k = 50; k < 58; k++)
+			for (idx2 = 50; idx2 < 58; idx2++)
 			{
-				if (k > j && j > i)
+				if (idx2 > idx2 && idx2 > idx1)
 				{
-					putchar(i);
-					putchar(j);
-					putchar(k);
-					if (i != 55 ||  j != 56)
+					putchar(idx1);
+					putchar(idx2);
+					putchar(idx2);
+					if (idx1 != 55 ||  idx2 != 56)
 					{
 						putchar(',');
 						putchar(' ');

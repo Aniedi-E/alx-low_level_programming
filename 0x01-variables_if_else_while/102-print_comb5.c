@@ -7,20 +7,20 @@
 
 int main(void)
 {
-	int i, j;
+	int idx, idx2;
 
-	for (i = 0; i < 100; i++)
+	for (idx = 0; idx < 100; idx++)
 	{
-		for (j = 0; j < 100; j++)
+		for (idx2 = 0; idx2 < 100; idx2++)
 		{
-			if (i < j)
+			if (idx < idx2)
 			{
-				putchar((i / 10) + 48);
-				putchar((i % 10) + 48);
+				putchar((idx / 10) + 48);
+				putchar((idx % 10) + 48);
 				putchar(' ');
-				putchar((j / 10) + 48);
-				putchar((j % 10) + 48);
-				if (i != 98 || j != 99)
+				putchar((idx2 / 10) + 48);
+				putchar((idx2 % 10) + 48);
+				if (idx != 98 || idx2 != 99)
 				{
 					putchar(',');
 					putchar(' ');
